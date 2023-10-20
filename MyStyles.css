@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+}
+
+/*Global Tags */
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+}
+
+span{
+    font-size: 0.9rem;
+    color: #757373;
+
+
+}
+
+h6{
+    font-size: 1.1rem;
+    color: rgb(24, 24,49);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 4vw ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0.15) ;
+}
+
+nav img{
+    width: 200px;
+    height: 80px;
+    padding: 0vw;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}  
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(13,81,120);
+    font-size: 26px;
+    font-weight: 500;
+    transition: 0.3s ease;
+
+}
+
+nav .navigation .section .hamburger a{
+    padding-left: 20px ;
+    color: #0d5178;
+    font-size: 28px;
+   
+
+}
+
+ .wrapper .sidebar{
+    background: #0d5178;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    height: 500px;
+    border-bottom-left-radius: 20%;
+    padding: 20px 0;
+    transition: 0.3 sec ease;
+}
+.wrapper .sidebar ul li{
+    list-style: none;
+}
+
+ .wrapper .sidebar ul li a{
+    
+    /* background-color: #0d5178; */
+    display: block;
+    padding: 10px 30px;
+    border-bottom: 1px solid #0d5178;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .item{
+    font-size: 15px;
+    color: white;
+}
+
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+    color: #0d5178;
+    background: #ffc700;
+}
+
+ 
+
+
+
+body.active .wrapper .sidebar{
+    right: -225px;
+}
+
+
+
+nav .navigation ul li a.active,
+nav .navigation ul li a:hover{
+    color: #ffc700;
+
+}
+
+/* home */
+#home{
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)),url("images/LuBackground.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#home h2{
+    color: #fff;
+    font-size: 2.5rem ;
+    letter-spacing: 1px;
+}
+
+#home p{
+    width: 50%;
+    color: #fff;
+    font-size: 1.1rem ;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+
+#home .btn{
+    margin-top: 40px;
+    
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 13px 35px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#home a.LMbtn{
+    color: #fff;
+    background: #0d5178;
+}
+
+#home a.LMbtn:hover{
+    color: #0d5178;
+    background: #fff;
+}
+
+#home a.CAbtn{
+    color: #fff;
+    background: #ffc700;
+}
+
+#home a.CAbtn:hover{
+    color: #0d5178;
+    background: #fff;
+}
+
+/* feature */
+#features{
+    padding: 5vw 8vw 8vw 8vw;
+    text-align: center;
+    
+
+}
+
+#features .feature-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .feature-box{
+    background-color: #f9f9ff;
+    text-align: start;
+
+}
+
+#features .feature-box i{
+    font-size: 2.3rem;
+    color: #0d5178;
+    padding: 10px 0px 0px 10px ;
+}
+
+
+
+#features .feature-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46,46,59) ;
+    padding: 13px 0px 10px 10px;
+}
+
+#features .feature-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70,70,87) ;
+    padding: 0px 0px 10px 10px;
+   
+}
+
+/* registration form */
+
+#registration{
+    padding: 6vw 8vw 6vw 8vw ;
+    background-image: linear-gradient(rgba(99,112,168,0.5), rgba(81,91,233,0.5)),url("images/regbackground.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#registration{
+    margin-top: 20px;
+}
+
+#registration .reminder{
+    color: #fff;
+
+}
+#registration .reminder h1{
+    color: #fff;
+    
+}
+
+#registration .regForm{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 #757373;
+
+}
+
+#registration .regForm input{
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid #0d5178;
+    border-radius: 8px;
+    outline: none;
+}
+
+#registration .regForm input::placeholder{
+    color: #0d5178;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+
+
+#registration .regForm .btn{
+    margin-top: 20px;
+}
+
+#registration .regForm a.regbtn{
+   
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #fff;
+    background: #ffc700;
+    transition: 0.3s ease;
+}
+
+#registration .regForm a.regbtn:hover{
+    color: #fff;
+    background: #0d5178;
+}
+
+footer{
+    padding: 8vw;
+    background-color: #0d5178;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 30px;
+}
+
+footer h3{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #757373;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3 sec ease;
+}
+
+footer li:hover{
+    color: white;
+
+
+}
+
+footer p{
+    color: #757373;
+}
+
+
+footer .subscribe{
+    margin-top: 20px;
+}
+
+footer input{
+    width: 220px;
+    padding:15px 12px;
+    background: white;
+    border:none;
+    outline: none;
+    color: black;
+}
+
+footer input ::placeholder{
+    color: black;
+}
+
+
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+   
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+   
+}
+
+
+footer .subscribe a.yellow:hover{
+    color: #0d5178;
+    background: #fff;
+}
+
+footer .subscribe a.yellow{
+    color: #fff;
+    background: #ffc700;
+}
+
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+footer .copyright .pro-links{
+    margin-top: 0px;
+}
+footer .copyright .pro-links i{
+    padding: 10px 13px;
+    border: 1px solid rgb(24, 24,100);
+    cursor: pointer;
+    transition: 0.3 sec ease;
+}
+footer .copyright .pro-links i:hover{
+    background:yellow;
+    color: #0d5178;
+    border: 1px solid rgb(24, 24,100);
+    cursor: pointer;
+}
+
+footer .copyright p{
+    color: white;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 30px;
+    background-color: white;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #0d5178;
+    background-color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+    
+    margin: left 30px;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #0d5178;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #0d5178 ;
+    color: #ffc700;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:#0d5178 ;
+    color: #ffc700;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* about-us home */
+  #about-home{
+    background-image: linear-gradient(rgba(9,5,54,0.3), rgba(5,4,46,0.7)),url("images/aboutUsCover.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#about-home h2{
+    color: white;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+
+}
+
+#about-container{
+    display: flex;
+    align-items: center;
+    padding: 8vw 8vw 2vw 8v2;
+}
+
+#about-container .about-image{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+   
+
+}
+
+#about-container .about-image img{
+    width: 90%;
+}
+
+#about-container .about-text{
+    width: 50%;
+    padding-right: 60px;
+    
+
+}
+
+#about-container .about-text h2{
+    color: #29303b;
+    padding-bottom: 15px;
+}
+
+#about-container .about-text p{
+    color: #686f7a;
+   font-weight: 300;
+}
+
+#about-container .about-text .about-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-position: center;
+    margin-top: 30px;
+
+}
+
+#about-container .about-text .about-features img{
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+
+}
+
+#about-container .about-text .about-features .feature-text{
+    width: 90%;
+
+
+}
+
+#about-container .about-text .about-features .feature-text h5{
+    font-size: 16px;
+    color: #29303b;
+}
+
+#trusted-by{
+    text-align: center;
+    padding-bottom: 60px;
+    color: black;
+}
+
+#trusted-by h1{
+    margin-top: 0px;
+    color: #0d5178;
+}
+
+/* Blog */
+#blog-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#blog-container .blog{
+    width: 60%;
+}
+
+#blog-container .blog img{
+    width: 100%;
+    border-radius: 19px;
+    
+}
+
+#blog-container .blog .post{
+    padding-bottom: 60px;
+}
+
+
+
+#blog-container .blog .post h2{
+    color: #29303b;
+    
+    padding: 15px 0 10px 0 ;
+}
+
+#blog-container .blog .post p{
+    color: #757373;
+    padding-bottom: 20px;
+    
+   
+}
+
+#blog-container .blog .post a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #0d5178;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+
+
+
+#blog-container .category{
+    width: 30%;
+}
+
+#blog-container .category h2{
+    padding-bottom: 7px;
+
+}
+
+#blog-container .category a{
+    text-decoration: none;
+    color: #757373;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+
+
+
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+
