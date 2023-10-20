@@ -2,6 +2,7 @@
 It's a bLOG website created using HTML-CSS , bootstrap and php as backend. We used mysql to store the data in phpmyadmin
 
 <h1>Admin side</h1>
+
 ![Screenshot (43)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/0d85149c-b86a-456b-ae40-cdcfe9982fe1)
 ![Screenshot (44)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/dec52ec0-d18f-4c8b-8f83-856ade652144)
 ![Screenshot (45)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/388edf68-b477-41d7-bc3c-addd9c86bb42)
