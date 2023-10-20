@@ -8,5 +8,6 @@ It's a bLOG website created using HTML-CSS , bootstrap and php as backend. We us
 ![Screenshot (47)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/e9a6c61e-40fa-4042-8bb5-27b39323f802)
 ![Screenshot (48)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/0e71b172-78ac-4d1a-ac73-694d5a7c12c0)
 ![Screenshot (49)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/fd781ed1-d292-4d62-9f2c-338acdb26054)
+![Screenshot (50)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/0e6b571c-9c0b-4b3e-a4ee-6c173bb1eec8)
 
 ![Screenshot (51)](https://github.com/Ruhan125/Hello_Junior_full/assets/67371356/0d565d82-b608-4db3-a7d0-e5c1c1a9ee69)
